@@ -3,7 +3,8 @@ The Synthesizer
 
 https://thesynthesizer.org
 
-Build test with bundle exec jekyll serve
+Build test with:
+bundle exec jekyll serve
 
 Test with local server: python3 -m http.server Browse at: http://localhost:8000/_site/
 

@@ -23,8 +23,8 @@ email: mat@thesynthesizer.org
 description: The Synthesizer - All about the history of the Synthesizer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://thesynthesizer.org" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: tech41-de
-github_username:  tech41-de
+twitter_username: 
+github_username:  
 
 # Build settings
 theme: minima

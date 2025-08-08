@@ -1,12 +1,610 @@
-- - '0'
-  - img/Minimoog.JPG
-  - Minimoog
-  - '1970'
-  - Moog
+- - '63'
+  - img/isotopFX.jpg
+  - FXEQ
+  - '2025'
+  - iZotope
   - USA
-  - The Minimoog is an analog synthesizer invented by Bob Moog in 1970. It is the
-    most famous synthesizer of all time. The Minimoog can be heard on countless records.
-    A variety of pugin emulations exist...
-  - $5499
+  - Multi-effects plugin in the Catalyst series that lets you “paint” saturation, reverb, delay, modulation, and lo-fi onto specific frequency bands via a 6-band parametric EQ, streamlining creative mixing.
+  - $49
+  - Digital<br/>Multi-FX
+  - 'Software'
+- - '61'
+  - img/kronos3.jpeg
+  - Kronos 3
+  - '2025'
+  - Korg
+  - Japan
+  - Flagship music workstation with nine synthesis engines, TouchView UI, KARMA and 16-track audio/MIDI sequencing—Korg’s next-gen all-in-one synth platform.
+  - $3399
+  - Digital<br/>Polyphonic
+  - 'Hardware'
+- - '0'
+  - img/Osmose.JPG
+  - Osmose
+  - '2023'
+  - Expressive E
+  - France
+  - The Osmose is a modern synthesizer featuring an MPE keyboard and the EaganMatrix engine co-developed with Haken Audio. It senses press, tilt, and shake per key for highly expressive control.
+  - $1799
+  - Digital<br/>Polyphonic
+  - 'Hardware'
+- - '56'
+  - img/MiniFreak.jpg
+  - MiniFreak
+  - '2022'
+  - Arturia
+  - France
+  - The MiniFreak is a six-voice hybrid synthesizer released by Arturia in 2022. It
+    pairs dual digital sound engines (wavetable, FM, granular, virtual analog and
+    more) with an analog multimode filter, an extensive modulation matrix, and a
+    37-note keybed with polyphonic aftertouch. Bundled with the MiniFreak V plugin,
+    it lets producers move seamlessly between hardware and software versions of the
+    same synth architecture.
+  - $599
+  - Hybrid<br/>Polyphonic
+  - 'Hardware - Plugin'
+- - '1'
+  - img/OBX8.JPG
+  - OB-X8
+  - '2022'
+  - Oberheim
+  - USA
+  - Modern analog polysynth combining the OB-X, OB-Xa, and OB-8 designs, co-created by Tom Oberheim and Sequential.
+  - $4999
+  - Analog<br/>Polyphonic
+  - 'Hardware'
+- - '2'
+  - img/Pigments4.JPG
+  - Pigments 4
+  - '2022'
+  - Arturia
+  - France
+  - Pigments 4 blends wavetable, virtual analog, sample/granular, and additive synthesis in a software instrument with deep modulation capabilities and a user-friendly workflow. Get this synth!!
+  - $199
+  - Digital<br/>Polyphonic
+  - 'Plugin'
+- - '3'
+  - img/argon8.png
+  - Argon8
+  - '2021'
+  - Modal Electronics
+  - UK
+  - Wavetable synthesizer with 120 wavetables, morphing, and extensive modulation, available in multiple key sizes.
+  - $749
+  - Digital (Wavetable)<br/>Polyphonic
+  - 'Hardware'
+- - '4'
+  - img/Wavestate.JPG
+  - Wavestate
+  - '2020'
+  - Korg
+  - Japan
+  - Modern reboot of the Wavestation with advanced wave sequencing 2.0, gigabytes of samples, and deep modulation.
+  - $799
+  - Digital<br/>Polyphonic
+  - 'Hardware'
+- - '5'
+  - img/vital.png
+  - Vital
+  - '2020'
+  - Vital Audio
+  - USA
+  - Free wavetable synthesizer with spectral warping, advanced modulation, and visual feedback for sound design. Get this synth!!!
+  - $0
+  - Digital (Wavetable)<br/>Polyphonic
+  - 'Plugin'
+- - '6'
+  - img/seqpro3.png
+  - Pro 3
+  - '2020'
+  - Sequential
+  - USA
+  - Hybrid paraphonic synthesizer with three oscillators (two analog, one wavetable) and three classic filter types.
+  - $1599
+  - Hybrid<br/>Paraphonic
+  - 'Hardware'
+- - '7'
+  - img/Hydrasynth.JPG
+  - Hydrasynth
+  - '2019'
+  - Ashun Sound Machines
+  - USA
+  - Wavemorphing polysynth with poly-aftertouch keybed, mutator modules, deep mod matrix, and effects.
+  - $1299
+  - Digital<br/>Polyphonic
+  - 'Hardware'
+- - '8'
+  - img/phasePlant.png
+  - Phase Plant
+  - '2019'
+  - Kilohearts
+  - Sweden
+  - Modular software synth with freely routable oscillators, samplers, and modulators plus snap-in effects. Get this synth!!!
+  - $199
+  - Digital<br/>Polyphonic
+  - 'Plugin'
+- - '9'
+  - img/novationSummit.png
+  - Summit
+  - '2019'
+  - Novation
+  - UK
+  - Bi-timbral 16-voice hybrid synthesizer based on Peak architecture with extended controls and keyboard.
+  - $2299
+  - Hybrid<br/>Polyphonic
+  - 'Hardware'
+- - '10'
+  - img/MoogOne.JPG
+  - Moog One
+  - '2018'
+  - Moog Music
+  - USA
+  - Flagship analog polysynth (8- or 16-voice) with three VCOs per voice, dual filters, deep modulation, and effects.
+  - $7999
+  - Analog<br/>Polyphonic
+  - 'Hardware'
+- - '11'
+  - img/Quantum.JPG
+  - Quantum
+  - '2018'
+  - Waldorf
+  - Germany
+  - Hybrid powerhouse: wavetable, VA, granular, and resonator digital oscillators through analog filters.
+  - $4200
+  - Hybrid<br/>Polyphonic
+  - 'Hardware'
+- - '12'
+  - img/DeepMind12.JPG
+  - DeepMind 12
+  - '2016'
+  - Behringer
+  - Germany
+  - Affordable 12-voice analog polysynth inspired by the Juno-106 with built-in effects and modulation matrix.
+  - $999
+  - Analog<br/>Polyphonic
+  - 'Hardware'
+- - '13'
+  - img/minilogue.png
+  - Minilogue
+  - '2016'
+  - Korg
+  - Japan
+  - 4-voice analog polysynth with oscilloscope display, versatile voice modes, and classic Korg tone.
+  - $499
+  - Analog<br/>Polyphonic
+  - 'Hardware'
+- - '14'
+  - img/System8.JPG
+  - System-8
+  - '2016'
+  - Roland
+  - Japan
+  - Plug-Out synth hosting ACB models of Jupiter-8, Juno-106, and JX-3P alongside its own powerful engine.
+  - $1499
+  - Digital (ACB)<br/>Polyphonic
+  - 'Hardware'
+- - '15'
+  - img/microbrute.jpg
+  - MicroBrute
+  - '2013'
+  - Arturia
+  - France
+  - Compact monophonic analog synth with Steiner-Parker filter, sequencer, and aggressive Brute Factor.
+  - $329
   - Analog<br/>Monophonic
-  - ''
+  - 'Hardware'
+- - '16'
+  - img/Sub37.JPG
+  - Sub 37
+  - '2014'
+  - Moog Music
+  - USA
+  - Duophonic/mono analog synth; two VCOs plus sub, ladder filter, and hands-on control.
+  - $1499
+  - Analog<br/>Paraphonic
+  - 'Hardware'
+- - '17'
+  - img/BassStation2.JPG
+  - Bass Station II
+  - '2013'
+  - Novation
+  - UK
+  - Monophonic analog synth with two oscillators, sub-oscillator, and classic/acid filter types.
+  - $499
+  - Analog<br/>Monophonic
+  - 'Hardware'
+- - '18'
+  - img/VolcaKeys.JPG
+  - Volca Keys
+  - '2013'
+  - Korg
+  - Japan
+  - Compact battery-powered analog polyphonic lead synth with sequencer.
+  - $149
+  - Analog<br/>Polyphonic
+  - 'Hardware'
+- - '19'
+  - img/op1.jpg
+  - OP-1
+  - '2011'
+  - Teenage Engineering
+  - Sweden
+  - Portable synth/workstation with multiple engines, tape recorder, sequencers, and built-in mic/speaker.
+  - $1199
+  - Digital<br/>Polyphonic
+  - 'Hardware'
+# ... remaining 30 entries go here ...
+- - '20'
+  - img/monotron.jpeg
+  - Monotron
+  - '2010'
+  - Korg
+  - Japan
+  - Palm-sized analog ribbon synth with MS-20 filter, battery-powered fun. Get one if you never had one.
+  - $59
+  - Analog<br/>Monophonic
+  - 'Hardware'
+- - '21'
+  - img/GAIA.JPG
+  - SH-01 GAIA
+  - '2010'
+  - Roland
+  - Japan
+  - Virtual analog synthesizer with three layers, simple controls, and hands-on editing.
+  - $749
+  - Virtual Analog<br/>Polyphonic
+  - 'Hardware'
+- - '22'
+  - img/Omnisphere2.png
+  - Omnisphere 2
+  - '2015'
+  - Spectrasonics
+  - USA
+  - Flagship sample-based and synth hybrid plugin with massive library and deep synthesis engines.
+  - $499
+  - Hybrid<br/>Polyphonic
+  - 'Plugin'
+- - '23'
+  - img/massive-x.jpg
+  - Massive X
+  - '2019'
+  - Native Instruments
+  - Germany
+  - Successor to Massive with advanced wavetable engine, routing, and sound design capabilities.  Get this synth!!
+  - $199
+  - Digital (Wavetable)<br/>Polyphonic
+  - 'Plugin'
+- - '24'
+  - img/serum2.png
+  - Serum
+  - '2014'
+  - Xfer Records
+  - USA
+  - Influential wavetable plugin synth known for pristine oscillators and intuitive editor. Get this synth!!!
+  - $189
+  - Digital (Wavetable)<br/>Polyphonic
+  - 'Plugin'
+- - '52'
+  - img/diva.jpg
+  - Diva
+  - '2012'
+  - u-he
+  - Germany
+  - Diva (Dinosaur Impersonating Virtual Analogue) is a software synthesizer that
+    painstakingly models the oscillators, filters, and envelopes of classic analog
+    instruments—Minimoog, Jupiter-8, Juno-60, MS-20, and more—letting users swap
+    modules to build hybrid “dream synths.” Celebrated for its authentic warmth and
+    punch (at the cost of high CPU), Diva has become a studio staple for producers
+    seeking vintage analog tone in a modern plugin.
+  - $179
+  - Digital<br/>Polyphonic
+  - 'Plugin'
+- - '27'
+  - img/prophet8.jpg
+  - Prophet '08
+  - '2008'
+  - Dave Smith Instruments
+  - USA
+  - Modern 8-voice analog polysynth reviving the Prophet legacy with DCOs and Curtis filters.
+  - $2099
+  - Analog<br/>Polyphonic
+  - 'Hardware'
+- - '25'
+  - img/sylenth1.jpg
+  - Sylenth1
+  - '2007'
+  - LennarDigital
+  - Netherlands
+  - Virtual analog VST synth prized for lush sound, low CPU, and EDM staple status.
+  - $139
+  - Virtual Analog<br/>Polyphonic
+  - 'Plugin'
+- - '26'
+  - img/massive.jpg
+  - Massive
+  - '2007'
+  - Native Instruments
+  - Germany
+  - Influential wavetable soft synth, cornerstone of dubstep and EDM sound design.
+  - $149
+  - Digital (Wavetable)<br/>Polyphonic
+  - 'Plugin'
+
+- - '51'
+  - img/zebra.webp
+  - Zebra2
+  - '2007'
+  - u-he
+  - Germany
+  - Zebra2 is a versatile modular software synthesizer that blends virtual analog,
+    wavetable, additive, FM, and spectral effects within a cable-free patching
+    interface. Get this synth!!!
+  - $110;
+  - Digital<br/>Polyphonic
+  - 'Plugin'
+- - '28'
+  - img/microkorg.jpg
+  - MicroKorg
+  - '2002'
+  - Korg
+  - Japan
+  - Compact VA synth/vocoder with mini keys, battery power, and versatile sound.
+  - $399
+  - Virtual Analog<br/>Polyphonic
+  - 'Hardware'
+- - '29'
+  - img/MinimoogVoyager.jpg
+  - Minimoog Voyager
+  - '2002'
+  - Moog Music
+  - USA
+  - Updated Minimoog with patch memory, MIDI, and modern reliability.
+  - $2995
+  - Analog<br/>Monophonic
+  - 'Hardware'
+- - '30'
+  - img/andromedaA6.jpeg
+  - Andromeda A6
+  - '2000'
+  - Alesis
+  - USA
+  - 16-voice analog polysynth with deep modulation and analog VCO/VCF design.
+  - $2999
+  - Analog<br/>Polyphonic
+  - 'Hardware'
+- - '31'
+  - img/absynth.jpg
+  - Absynth
+  - '2000'
+  - Native Instruments
+  - Germany
+  - Semi-modular soft synth famed for evolving pads and soundscapes.
+  - $199
+  - Digital<br/>Polyphonic
+  - 'Plugin'
+- - '32'
+  - img/reason.png
+  - Reason
+  - '2000'
+  - Propellerhead
+  - Sweden
+  - Virtual rack studio with multiple synths, samplers, and effects.
+  - $399
+  - Digital<br/>Polyphonic
+  - 'Plugin'
+- - '55'
+  - img/triton.png
+  - Triton
+  - '1999'
+  - Korg
+  - Japan
+  - The Korg Triton is a PCM-based music workstation synthesizer introduced in 1999
+    as the successor to the Trinity. Its HI synthesis engine, touchscreen interface,
+    dual polyphonic arpeggiators, and optional sampling/MOSS expansion boards made it
+    a go-to production powerhouse for pop, R&B, and film scoring in the 2000s.
+    Get this synth !!!
+  - $2999
+  - Digital<br/>Polyphonic
+  - 'Hardware - Plugin'
+- - '33'
+  - img/reactor.jpeg
+  - Reaktor
+  - '1999'
+  - Native Instruments
+  - Germany
+  - Modular DSP environment for building custom synths, samplers, and effects.
+  - $399
+  - Digital<br/>Polyphonic
+  - 'Plugin'
+- - '34'
+  - img/virusA.jpg
+  - Virus A
+  - '1997'
+  - Access Music
+  - Germany
+  - Iconic VA hardware synth series with lush pads and aggressive leads.
+  - $1499
+  - Virtual Analog<br/>Polyphonic
+  - 'Hardware'
+- - '35'
+  - img/jp800.jpeg
+  - JP-8000
+  - '1997'
+  - Roland
+  - Japan
+  - VA polysynth introducing the Supersaw waveform for trance music.
+  - $1295
+  - Virtual Analog<br/>Polyphonic
+  - 'Hardware'
+- - '36'
+  - img/rebirth.webp
+  - ReBirth RB-338
+  - '1997'
+  - Propellerhead
+  - Sweden
+  - Software emulation of TB-303, TR-808, and TR-909 for acid and house production.
+  - $179
+  - Digital<br/>Monophonic
+  - 'Plugin'
+- - '57'
+  - img/korg_prophecy.jpg
+  - Prophecy
+  - '1995'
+  - Korg
+  - Japan
+  - Monophonic physical-modeling synthesizer employing Korg’s MOSS engine for expressive, diverse sound creation.
+  - $2199
+  - Digital<br/>Monophonic
+  - 'Hardware - Plugin'
+- - '37'
+  - img/wavestation.jpg
+  - Wavestation
+  - '1990'
+  - Korg
+  - Japan
+  - Vector synthesis and wave sequencing for evolving textures.
+  - $2199
+  - Digital<br/>Polyphonic
+  - 'Hardware'
+- - '38'
+  - img/korgm1.png
+  - M1
+  - '1988'
+  - Korg
+  - Japan
+  - Best-selling workstation with PCM engine, sequencer, and iconic presets. Get this synth!!!
+  - $2166
+  - PCM Digital<br/>Polyphonic
+  - 'Hardware - Plugin'
+- - '39'
+  - img/roandd50.jpg
+  - D-50
+  - '1987'
+  - Roland
+  - Japan
+  - LA synthesis combining PCM attacks with synthesized sustain waves.
+  - $1995
+  - Digital (LA)<br/>Polyphonic
+  - 'Hardware'
+- - '40'
+  - img/dx7.jpeg
+  - DX7
+  - '1983'
+  - Yamaha
+  - Japan
+  - FM synth that defined the 80s with electric pianos, basses, and bells.
+  - $2000
+  - Digital (FM)<br/>Polyphonic
+  - 'Hardware'
+- - '41'
+  - img/jupiter8.jpeg
+  - Jupiter-8
+  - '1981'
+  - Roland
+  - Japan
+  - Flagship analog polysynth with lush pads and punchy bass.
+  - $5295
+  - Analog<br/>Polyphonic
+  - 'Hardware'
+- - '42'
+  - img/prophet5.webp
+  - Prophet-5
+  - '1978'
+  - Sequential Circuits
+  - USA
+  - First programmable polyphonic synth with analog VCOs and filters.
+  - $4495
+  - Analog<br/>Polyphonic
+  - 'Hardware'
+- - '43'
+  - img/ms20.webp
+  - MS-20
+  - '1978'
+  - Korg
+  - Japan
+  - Semi-modular mono synth with dual filters and patch bay.
+  - $750
+  - Analog<br/>Monophonic
+  - 'Hardware'
+- - '44'
+  - img/cs80.webp
+  - CS-80
+  - '1976'
+  - Yamaha
+  - Japan
+  - Expressive polyphonic synth with poly-aftertouch and ribbon control.
+  - $6900
+  - Analog<br/>Polyphonic
+  - 'Hardware'
+- - '60'
+  - img/Oberheim-TwoVoicePro-01.jpg
+  - Two Voice
+  - '1975'
+  - Oberheim
+  - USA
+  - Dual SEM-based analog synthesizer with a 37-key keyboard, built-in 8-step sequencer, and two-voice polyphony—one of the earliest commercially available polyphonic synths.
+  - $2000
+  - Analog<br/>Duophonic
+  - 'Hardware'
+- - '45'
+  - img/arp2600.jpg
+  - 2600
+  - '1971'
+  - ARP
+  - USA
+  - Semi-modular analog synth famous for R2-D2 sounds.
+  - $6950
+  - Analog<br/>Monophonic
+  - 'Hardware'
+- - '46'
+  - img/Minimoog.JPG
+  - Minimoog Model D
+  - '1970'
+  - Moog Music
+  - USA
+  - Portable mono synth that set the standard for subtractive synthesis.
+  - $4999
+  - Analog<br/>Monophonic
+  - 'Hardware'
+- - '47'
+  - img/vc3s.jpeg
+  - VCS3
+  - '1969'
+  - EMS
+  - UK
+  - Portable analog synth with pin-matrix patching.
+  - $800
+  - Analog<br/>Monophonic
+  - 'Hardware'
+- - '48'
+  - img/moogModular.jpg
+  - Moog Modular
+  - '1965'
+  - Moog Music
+  - USA
+  - First commercial modular synth, used by Wendy Carlos on Switched-On Bach.
+  - $11000
+  - Analog Modular<br/>Monophonic
+  - 'Hardware'
+- - '49'
+  - img/buchla100.jpg
+  - Buchla Series 100
+  - '1963'
+  - Buchla
+  - USA
+  - Early modular system commissioned by the San Francisco Tape Music Center.
+  - $5000
+  - Analog Modular<br/>Monophonic
+  - 'Hardware'
+- - '50'
+  - img/Teleharmonium1897.jpg
+  - Teleharmonium
+  - '1897'
+  - Thaddeus Cahill
+  - USA
+  - Early Dynamophone, like an electric organ
+  - $?
+  - Additive
+  - 'Hardware'
+
+  
