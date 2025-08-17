@@ -95,97 +95,183 @@ h2 {
 a{
   color:white;
 }
-.responsive-table {
-  li {
-    display: table;
-    width:100%;
-    border-radius: 13px;
-    margin-top:5px;
-    margin-left:0px;
-    padding: 2px 2px;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 5px;
-  }
-  .table-header {
-    background-color: #95A5A6;
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-  }
-  .table-row {
-    width:100%;
-    background-color: #ffffff;
-    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
-    letter-spacing: 0.03em;
-  }
-
-  .col-1 {
-    flex-basis: 160px;
-    text-align: left;
-    padding:5px;
-  }
-  .col-2 {
-    flex-basis: 100%;
-    margin:5px;
-    text-align: left;
-    background-color:#EEEEEE;
-  }
-  .col-3 {
-    margin:0px;
-    text-align: left;
-    background-color:#FFFFFF;
-  }
-  .col-4 {
-    text-align: left;
-    flex-basis: 20%;
-  }
-  .col-5 {
-    text-align: left;
-    flex-basis: 20%;
-  }
-  .col-6 {
-    text-align: left;
-    flex-basis: 20%;
-    color:black;
-    a{
-       color:blue;
-    }
-  }
-  
-  <!-- bundle exec jekyll serve  -->
 </style>
 </head>
 
 <div class="header">The Synthesizer - All about the history and the application of the synthesizer</div>
 <div class="title">The Synthesizer</div>
   <br/>
-  <ul class="responsive-table">
-
-    {% for m in site.data.data %}
-    <li class="table-row">
-     <div class="col col-1"><img src="{{ m[1]}}" width=150 height=150/><b>{{m[2]}}</b>
-     <br/>{{ m[4] }}
-     <br/>{{ m[5] }}, {{ m[3] }}
-     </div>
-     <div class="col col-2">
-      <table >
-      <tr>
-      <td colspan ="3">
-        <div class="col col-3">
-          {{ m[6] }}
-        </div>
-        </td>
-        </tr>
-      <tr>
-        <td><div class="col col-4">{{m[7]}}</div></td>
-        <td><div class="col col-5">{{m[8]}}</div></td>
-        <td><div class="col col-6">{{m[9]}}</div></td>
-       </tr>
-      </table>
-      </div>
-      </li>
-    {% endfor %}
-</ul>
  <h3 class="teaser">Let's add one synthesizer a day challenge: </h3> 
  <div class="challenge">Do you like to add a synthesizer? Email to <a href="mailto:mat@thesynthesizer.org">mat@thesynthesizer.org</a>.</div>
+
+<div class="responsive-table">
+  {% for m in site.data.data %}
+  <div class="tool-card">
+    <div class="tool-image-column">
+      <img class="tool-image" src="{{ m[1] }}" alt="{{ m[2] }} logo" />
+    </div>
+    <div class="tool-info-column">
+      <div class="tool-info">
+        <h2 class="tool-title">{{ m[2] }}</h2>
+        <p class="tool-meta">{{ m[4] }} | {{ m[5] }}, {{ m[3] }}</p>
+        <p class="tool-description">
+          {{ m[6] }}
+        </p>
+        <div class="tool-details">
+          <span class="detail-item">{{ m[7] }}</span>
+          <span class="detail-item">{{ m[8] }}</span>
+          <span class="detail-item">{{ m[9] }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<style>
+.responsive-table {
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tool-card {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  grid-template-rows: auto;
+  gap: 0;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  min-height: 160px;
+}
+
+.tool-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.tool-image-column {
+  grid-column: 1;
+  grid-row: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20px;
+  background: #f8f9fa;
+}
+
+.tool-image {
+  width: 280px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tool-info-column {
+  grid-column: 2;
+  grid-row: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.tool-info {
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.tool-title {
+  margin: 0 0 8px 0;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #333;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.tool-meta {
+  margin: 0 0 12px 0;
+  font-size: 0.9rem;
+  color: #666;
+  font-weight: 500;
+}
+
+.tool-description {
+  margin: 0 0 16px 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #555;
+  flex-grow: 1;
+}
+
+.tool-details {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: auto;
+}
+
+.detail-item {
+  font-size: 0.75rem;
+  padding: 6px 10px;
+  background: #e9ecef;
+  border-radius: 12px;
+  color: #666;
+  font-weight: 500;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .responsive-table {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+  
+  .tool-card {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+  
+  .tool-image-column {
+    grid-column: 1;
+    grid-row: 1;
+    padding: 15px;
+  }
+  
+  .tool-info-column {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  
+  .tool-image {
+    width: 120px;
+    height: 100px;
+  }
+  
+  .tool-info {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tool-image {
+    width: 100px;
+    height: 80px;
+  }
+  
+  .tool-title {
+    font-size: 1.2rem;
+  }
+}
+</style>
